@@ -9,10 +9,10 @@ def avg_heartbeat(gender):
     page = 1
     heart_rate = []
 
-    #while True:
-    res = requests.get(f"{url}?page={page}&sex={gender}")
-    data = res.json()
+    while True:
+        res = requests.get(f"{url}?page={page}&sex={gender}")
+        data = res.json()
 
-    print(data)
+    
 
 print(avg_heartbeat("female"))
