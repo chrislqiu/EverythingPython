@@ -1,0 +1,28 @@
+Video: https://www.youtube.com/watch?v=jGg_1h0qzaM
+
+TYPE ANNOTATION:
+-----------------
+
+Dictionaries often aren't strongly typed. We can create Typed Dict using classes (Ref1.py)
+    - type safety
+    - enhanced readability, easier to debug
+
+Union: allows the passing of different types (almost like polymorphism in Java?) (Ref1.py)
+    - flexible
+
+Optional: basically what it sounds, can pass in a str or nothing (Ref1.py)
+    - if you designate it as str, but it can also be none
+
+Any: anything and everything is allowed
+
+Lambda func: mini functions essentially (Ref1.py)
+
+
+ELEMENTS:
+-------------------
+
+State: shared data struc, that holds current info or context
+    - its like the application's memory, that keeps track of var and data that nodes can access and modify
+
+Nodes: individual functions or operations that perform specific tasks within the graph
+    - each node receives inputs, process it, and produces an output or updated state
