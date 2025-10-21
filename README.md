@@ -6,6 +6,7 @@ Reinforcing my Python knowledge while learning new applications.
 * Learn API calls
 * Refresh on NumPy, Pandas, Matplotlib
 * Learn how to build ML models from API
+* AI Stuff
 * Learn Django?
 * Learn MySQL and refresh on MongoDB
 * Writing DSA from scratch (Trees and Sorting Alg)
